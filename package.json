@@ -9,9 +9,15 @@
     "@babel/runtime": "7",
     "babel-loader": "8",
     "compression-webpack-plugin": "9",
+    "css-loader": "^6.7.4",
+    "css-minimizer-webpack-plugin": "^5.0.0",
+    "mini-css-extract-plugin": "^2.7.6",
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "6",
     "shakapacker": "6.6.0",
+    "style-loader": "^3.3.3",
     "terser-webpack-plugin": "5",
     "webpack": "5",
     "webpack-assets-manifest": "5",
@@ -19,12 +25,21 @@
     "webpack-dev-server": "^4.15.0",
     "webpack-merge": "5"
   },
+  "scripts": {
+    "lint": "eslint app/javascript"
+  },
   "version": "0.1.0",
   "browserslist": [
     "defaults"
   ],
   "devDependencies": {
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.10",
+    "eslint": "^8.41.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
     "react-refresh": "^0.14.0"
   }
 }
